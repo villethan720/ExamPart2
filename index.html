@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>Account Creation</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="form" class="form">
+                <h1>Account Creation Request</h1>
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter a username"/>
+                        <small>Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter email"/>
+                        <small>Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter a password"/>
+                        <small>Error Message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="confirmpassword">Confirm password</label>
+                        <input type="password" id="confirmPass" placeholder="Confirm password"/>
+                        <small>Error Message</small>
+                    </div>
+
+                <button type="submit">Create Account</button>
+                <p id="p1"></p>
+            </form>
+        </div>
+        <!--Call js here-->
+        <script src="JS/script.js"/>
+
+    </body>
+</html>
